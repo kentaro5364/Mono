@@ -1,4 +1,4 @@
-function(){
+{
   var setImg = '#viewer'
   var fadeSpeed = 1500;
   var switchDelay = 5000;
