@@ -1,4 +1,4 @@
-$(function(){
+function(){
   var setImg = '#viewer'
   var fadeSpeed = 1500;
   var switchDelay = 5000;
@@ -10,7 +10,7 @@ $(function(){
   setInterval(function(){
     $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
   },switchDelay);
-});
+};
 
 
 {
